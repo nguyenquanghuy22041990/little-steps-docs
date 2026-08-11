@@ -408,6 +408,8 @@ Use:
 MinIO
 ```
 
+V1 implementation targets local development first. PostgreSQL should run locally or in a local Docker environment, and media bytes should be stored in local MinIO.
+
 ### Future production
 
 The storage implementation may be replaced with:
@@ -417,6 +419,8 @@ The storage implementation may be replaced with:
 * another S3-compatible provider
 
 The database should store only the stable `storage_key`.
+
+Production domains, CDN, deployment pipeline, and cloud-provider choices are intentionally deferred.
 
 Example:
 

@@ -15,10 +15,12 @@ little-steps-mobile   Mobile implementation
 Before changing a document or implementing a feature, read the relevant documents in this order:
 
 1. The task, if one exists in `tasks/`.
-2. Product requirements in `product/`.
-3. Domain rules and models in `domain/`.
-4. Architecture decisions in `architecture/`.
-5. The repository-specific `AGENTS.md` in the implementation repository.
+2. The AI development workflow in `ai/ai_development_workflow.md` when using an AI coding tool.
+3. The AI coding guidelines in `ai/ai_coding_guidelines.md` when implementing or reviewing code.
+4. Product requirements in `product/`.
+5. Domain rules and models in `domain/`.
+6. Architecture decisions in `architecture/`.
+7. The repository-specific `AGENTS.md` in the implementation repository.
 
 Keep documentation concise, factual, and internally consistent. Update related documents when an intentional decision changes.
 
@@ -27,6 +29,8 @@ Do not invent requirements, API behavior, domain entities, or future journey typ
 ## Current V1 boundary
 
 LittleSteps V1 supports a Child Journey: child profile, milestones, memories, photos, videos, and a chronological timeline.
+
+V1 implementation targets local development first: local NestJS API, local or local-Docker PostgreSQL, local MinIO object storage, and a mobile development base URL. Production deployment, production domains, CDN, and cloud-provider choices are deferred.
 
 The generic core is:
 

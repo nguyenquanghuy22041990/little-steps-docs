@@ -126,7 +126,7 @@ Mobile requests upload authorization
   -> Backend records usable media metadata
 ```
 
-MinIO is the local-development storage provider; an S3-compatible production provider may replace it without changing the domain model.
+V1 implementation targets local development first. MinIO is the local-development storage provider; an S3-compatible production provider may replace it later without changing the domain model.
 
 ## 7. V1 invariants
 
