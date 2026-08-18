@@ -11,18 +11,18 @@ This phase focuses on setting up the core infrastructure, backend, and mobile pr
 - [x] **Task 1.3**: Write a simple initialization script to create the required default buckets in MinIO (e.g., `littlesteps-media`).
 
 ### 2. Backend Foundation (`little-steps-backend`)
-- [/] **Task 2.1**: Initialize a new NestJS project with TypeScript.
-- [/] **Task 2.2**: Configure ESLint and Prettier for the backend.
-- [ ] **Task 2.3**: Install and initialize Prisma ORM.
-- [ ] **Task 2.4**: Connect Prisma to the local Docker PostgreSQL database.
-- [ ] **Task 2.5**: Define the initial `User` model in `schema.prisma` and run the first database migration to verify the connection.
-- [ ] **Task 2.6**: Create `AGENTS.md` in `little-steps-backend` to guide AI on backend conventions (NestJS, Prisma, testing rules).
+- [x] **Task 2.1**: Initialize a new NestJS project with TypeScript.
+- [x] **Task 2.2**: Configure ESLint and Prettier for the backend.
+- [x] **Task 2.3**: Install and initialize Prisma ORM.
+- [x] **Task 2.4**: Connect Prisma to the local Docker PostgreSQL database.
+- [x] **Task 2.5**: Define the initial `User` model in `schema.prisma` and run the first database migration to verify the connection.
+- [x] **Task 2.6**: Create `AGENTS.md` in `little-steps-backend` to guide AI on backend conventions (NestJS, Prisma, testing rules).
 
 ### 3. Mobile Foundation (`little-steps-mobile`)
-- [ ] **Task 3.1**: Initialize the React Native project (using Expo or React Native CLI as decided) with TypeScript.
-- [ ] **Task 3.2**: Configure ESLint and Prettier for the mobile app.
-- [ ] **Task 3.3**: Setup the foundational folder structure (e.g., `src/screens`, `src/components`, `src/navigation`, `src/services`).
-- [ ] **Task 3.4**: Create `AGENTS.md` in `little-steps-mobile` to guide AI on mobile conventions (React Native, state management, styling).
+- [x] **Task 3.1**: Initialize the React Native project (using Expo or React Native CLI as decided) with TypeScript.
+- [x] **Task 3.2**: Configure ESLint and Prettier for the mobile app.
+- [x] **Task 3.3**: Setup the foundational folder structure (e.g., `src/screens`, `src/components`, `src/navigation`, `src/services`).
+- [x] **Task 3.4**: Create `AGENTS.md` in `little-steps-mobile` to guide AI on mobile conventions (React Native, state management, styling).
 
 ## Completion Criteria
 Phase 2 is complete when:
